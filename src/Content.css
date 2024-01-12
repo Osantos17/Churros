@@ -1,3 +1,18 @@
-.header {
-  margin: 0px;
+.info {
+  background-color: black;
+}
+
+.aboutMe {
+  background-color: purple;
+  position: relative;
+  left: 80px;
+  top: 120px;
+}
+
+.map {
+  background-color: gold;
+}
+
+p {
+  padding: 40px;
 }
