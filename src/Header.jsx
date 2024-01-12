@@ -6,7 +6,7 @@ export function Header() {
     <div className ="introContainer">
       <div className="intro">
         <div className="row justify-content-between">
-          <div className="col-md-6 logo">
+          <div className="col-md-6">
             <img className="ChurroLogo" src="src/images/ChurroLogo.png" width="350" height="110"></img>
           </div>
           <div className="col">
