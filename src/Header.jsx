@@ -1,9 +1,10 @@
-import "./Content.css"
+import "./Header.css"
 
-export function Content() {
-  return (
-    <div className = "background">
-      <div className = "container header">
+export function Header() {
+
+  return(
+    <div className ="introContainer">
+      <div className="intro">
         <div className="row justify-content-between">
           <div className="col-md-6 logo">
             <img className="ChurroLogo" src="src/images/ChurroLogo.png" width="350" height="110"></img>
