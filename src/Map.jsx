@@ -23,7 +23,7 @@ class RadarMap extends React.Component {
 
   render() {
     return (
-      <div id="map-container" style={{ height: '100%', position: 'absolute', width: '100%' }}>
+      <div id="map-container" style={{ height: '300px', position: 'absolute', width: '100%' }}>
         <div id="map" style={{ height: '100%', position: 'absolute', width: '100%' }} />
       </div>
     );
