@@ -1,8 +1,12 @@
 .introContainer {
-  background-color: rgba(0, 0, 0, 0.893);
+  background-color: rgba(25, 25, 25);
   border-bottom: solid rgb(142, 37, 142) 2px;
 }
 
 .intro {
   padding: 10px 0px 0px 10px;
+}
+
+.headerInfo {
+  padding-top: 11px;
 }

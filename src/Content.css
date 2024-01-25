@@ -12,7 +12,7 @@
 }
 
 .map {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(25, 25, 25);
   border: white .5px solid;
   border-radius: 40px;
   position: relative;
@@ -28,6 +28,17 @@
   bottom: 10px;
   border-radius: 40px;
   width: 250px;
+}
+
+.mapView {
+  position: relative;
+  align-items: center;
+}
+
+div h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
 }
 
 p {
