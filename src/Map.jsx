@@ -1,5 +1,6 @@
 import React from 'react';
 import Radar from 'radar-sdk-js';
+import './Map.css'
 
 import 'radar-sdk-js/dist/radar.css';
 
@@ -7,18 +8,25 @@ class RadarMap extends React.Component {
   componentDidMount() {
     Radar.initialize(`${import.meta.env.VITE_SOME_KEY}`);
 
-    // create a map
     const map = new Radar.ui.map({
       container: 'map',
-      style: 'radar-default-v1',
-      center: [-73.9911, 40.7342], // NYC
+      style: 'radar-light-v1',
+      center: [-73.9911, 40.7342],
       zoom: 4,
     });
 
-    // add a marker to the map
     Radar.ui.marker({ text: 'Location' })
       .setLngLat([-73.9910078, 40.7342465])
       .addTo(map);
+      
+      Radar.ui.marker({ text: 'Location2' })
+      .setLngLat([-71.9910078, 40.7342465])
+      .addTo(map);
+
+      Radar.ui.marker({ text: 'Location2' })
+      .setLngLat([-70.9910078, 40.7342465])
+      .addTo(map);
+
   }
 
   render() {
